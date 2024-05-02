@@ -1,0 +1,38 @@
+# Ignora arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de cache de editor/IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Ignora arquivos gerados durante a execução (ex.: arquivos .pyc, .pyo)
+__pycache__/
+*.py[cod]
+
+# Ignora diretório de dependências instaladas
+venv/
+env/
+envs/
+lib/
+libs/
+*.egg-info/
+dist/
+
+# Ignora arquivos gerados durante a execução (ex.: arquivos .log)
+logs/
+*.log
+
+# Ignora arquivos de dados grandes
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.pkl
+
+# Ignora arquivos de configuração do ambiente (ex.: .env, .venv)
+*.env
+
+# Ignora arquivos de credenciais ou chaves de API
+credentials.json
