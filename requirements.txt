@@ -1,5 +1,7 @@
 pandas
 requests
-urllib
 dash
 plotly.express
+matplotlib
+plotly
+
