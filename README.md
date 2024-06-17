@@ -49,11 +49,11 @@ na ordem em que estão no arquivo, a última célular ira responder com o link d
 
 ## 📌 Versão
 
-Nós usamos o github para controle de versão. Para as versões disponíveis, observe os [commits](https://github.com/rennegomes/suapeVantagens/commits/master/). 
+Nós usamos o github para controle de versão. Para as versões disponíveis, observe os [commits](https://github.com/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/commits/main/). 
 
 ## 🛠️ Construído com
 
-* [PYHTON](https://www.python.org/doc/) - A linguagem de programação utilizada
+* [PYTHON](https://www.python.org/doc/) - A linguagem de programação utilizada
 * [DASH](https://dash.plotly.com) - Framework utilizado
 * [PLOTLY](https://plotly.com/python/) - Biblioteca para construção dos gráficos
 * [PANDAS](https://pandas.pydata.org/docs/) - Biblioteca para ánalise e estruturação dos dados
