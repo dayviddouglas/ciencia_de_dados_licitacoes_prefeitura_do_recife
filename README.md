@@ -24,24 +24,107 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Para rodar o projeto no google colab não é necessario instalação de nenhum arquivo, somente é necessario uma conta google e acessar este link: [DASHBOARD](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/dashboard.ipynb)
 
+[LICITAÇÕES E ARVORE DE DECISÃO](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/Licita%C3%A7%C3%B5es.ipynb)
+
 ## Windows
 
 [DOWLOAD DO PYTHON PARA WINDOWS](https://www.python.org/downloads/windows/)
 
-Em sua IDE de preferencia ou no jupyter notebook abra o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
+Crie uma pasta para o seu projeto:
+
+Escolha um local no seu sistema de arquivos e crie uma pasta para o seu projeto Python.
+
+Abra o terminal e navegue até a pasta do projeto:
+
+Abra o terminal ou prompt de comando e navegue até a pasta que você criou para o projeto.
+
+Crie um ambiente virtual (venv):
+
+No terminal, execute o seguinte comando:
+
+```bash 
+$ python -m venv venv
+```
+
+Ative o ambiente virtual:
+```bash 
+$ venv\Scripts\activate
+```
+Instale as dependências a partir do arquivo requirements.txt:
+No terminal, execute o seguinte comando:
+
+```bash 
+$ pip install -r requirements.txt
+```
+
+Para o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
 na ordem em que estão no arquivo, a última célular ira responder com o link de um servidor local que roda na porta 8050 que é a porta padrão do DashApp.
 
 ## MAC
 
 [DOWLOAD DO PYTHON PARA MAC](https://www.python.org/downloads/macos/)
 
-Em sua IDE de preferencia ou no jupyter notebook abra o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
+Crie uma pasta para o seu projeto:
+
+Escolha um local no seu sistema de arquivos e crie uma pasta para o seu projeto Python.
+
+Abra o terminal e navegue até a pasta do projeto:
+
+Abra o terminal ou prompt de comando e navegue até a pasta que você criou para o projeto.
+
+Crie um ambiente virtual (venv):
+
+No terminal, execute o seguinte comando:
+
+```bash 
+$ python -m venv venv
+```
+
+Ative o ambiente virtual:
+```bash 
+$ source venv/bin/activate
+```
+Instale as dependências a partir do arquivo requirements.txt:
+No terminal, execute o seguinte comando:
+
+```bash 
+$ pip install -r requirements.txt
+```
+
+Para o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
 na ordem em que estão no arquivo, a última célular ira responder com o link de um servidor local que roda na porta 8050 que é a porta padrão do DashApp.
 
 
 ## LINUX
 
 [INSTALAÇÃO PYTHON PARA LINUX](https://python.org.br/instalacao-linux/)
+
+Crie uma pasta para o seu projeto:
+
+Escolha um local no seu sistema de arquivos e crie uma pasta para o seu projeto Python.
+
+Abra o terminal e navegue até a pasta do projeto:
+
+Abra o terminal ou prompt de comando e navegue até a pasta que você criou para o projeto.
+
+Crie um ambiente virtual (venv):
+
+No terminal, execute o seguinte comando:
+
+```bash 
+$ python -m venv venv
+```
+
+Ative o ambiente virtual:
+```bash 
+$ source venv/bin/activate
+```
+Instale as dependências a partir do arquivo requirements.txt:
+No terminal, execute o seguinte comando:
+
+```bash 
+$ pip install -r requirements.txt
+```
 
 Os sistemas GNU/Linux mais recentes ja possuem uma versão do Python instalada junto com o sistema operacional mas é recomendado a instalação de outro interpretador para evitar conflitos, por isso deve ser seguido o passo a passo do link acima após instalado
 em sua IDE de preferencia ou no jupyter notebook abra o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
