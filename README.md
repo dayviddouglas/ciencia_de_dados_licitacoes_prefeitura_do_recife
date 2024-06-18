@@ -22,7 +22,9 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ## Colab
 
-Para rodar o projeto no google colab não é necessario instalação de nenhum arquivo, somente é necessario uma conta google e acessar este link: [DASHBOARD](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/dashboard.ipynb)
+Para rodar o projeto no google colab não é necessario instalação de nenhum arquivo, somente é necessario uma conta google e acessar este link: 
+
+[DASHBOARD](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/dashboard.ipynb)
 
 [LICITAÇÕES E ARVORE DE DECISÃO](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/Licita%C3%A7%C3%B5es.ipynb)
 
