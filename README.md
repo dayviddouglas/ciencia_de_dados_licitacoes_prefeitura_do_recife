@@ -1,152 +1,108 @@
-# dashboard licitações da prefeitura do Recife
+# Recife City Hall Bidding Dashboard
 
-Neste trabalho foi feita uma ánalise estatistica sobre as licitações feitas pela prefeitura do Recife a partir de um dataset público, que pode ser encontrado neste link: [Dataset original](http://dados.recife.pe.gov.br/dataset/591a6ed4-7beb-4304-a2a1-2af521517a06/resource/c5d7505c-381c-4670-a0c2-1fbf56df50b1/download/dados_abertos_licitacao_concluida.csv)
+This project presents a statistical analysis of the bidding processes conducted by the Recife City Hall, based on a public dataset. 
+[Original Dataset](http://dados.recife.pe.gov.br/dataset/591a6ed4-7beb-4304-a2a1-2af521517a06/resource/c5d7505c-381c-4670-a0c2-1fbf56df50b1/download/dados_abertos_licitacao_concluida.csv)
 
-## 🚀 Começando
+## 🚀 Getting Started
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local ou online no google colab.
+These instructions will guide you through getting a copy of the project running on your local machine or online via Google Colab.
 
-### 📋 Pré-requisitos
+### 📋 Prerequisites
 
-### Caso deseje rodar na nuvem:
+**To run in the cloud:**
+* [GOOGLE COLAB](https://colab.research.google.com)
 
-[GOOGLE COLAB](https://colab.research.google.com)
+**To run locally:**
+* [PYTHON](https://www.python.org/downloads/)
+* [JUPYTER NOTEBOOK](https://jupyter.org/install)
 
-### Caso deseje rodar na sua máquina:
+---
 
-[PYTHON](https://www.python.org/downloads/)
+## 🔧 Installation
 
-[JUPYTER NOTEBOOK](https://jupyter.org/install)
+### Google Colab
+No installation is required to run the project in the cloud. You only need a Google account to access the following links:
 
-### 🔧 Instalação
+* [DASHBOARD](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/dashboard.ipynb)
+* [BIDDING & DECISION TREE](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/Licita%C3%A7%C3%B5es.ipynb)
 
-## Colab
-
-Para rodar o projeto no google colab não é necessario instalação de nenhum arquivo, somente é necessario uma conta google e acessar este link: 
-
-[DASHBOARD](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/dashboard.ipynb)
-
-[LICITAÇÕES E ARVORE DE DECISÃO](https://colab.research.google.com/github/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/blob/main/Licita%C3%A7%C3%B5es.ipynb)
-
-## Windows
-
-[DOWLOAD DO PYTHON PARA WINDOWS](https://www.python.org/downloads/windows/)
-
-Crie uma pasta para o seu projeto:
-
-Escolha um local no seu sistema de arquivos e crie uma pasta para o seu projeto Python.
-
-Abra o terminal e navegue até a pasta do projeto:
-
-Abra o terminal ou prompt de comando e navegue até a pasta que você criou para o projeto.
-
-Crie um ambiente virtual (venv):
-
-No terminal, execute o seguinte comando:
-
-```bash 
-$ python -m venv venv
-```
-
-Ative o ambiente virtual:
+### Windows
+1. [Download Python for Windows](https://www.python.org/downloads/windows/)
+2. **Create a project folder:** Choose a location on your file system and create a folder for your Python project.
+3. **Open the terminal and navigate to the folder:** Use the Command Prompt or terminal to go to the created directory.
+4. **Create a virtual environment (venv):**
+   ```bash
+   python -m venv venv
+   ```
+Activate the virtual environment:
 ```bash 
 $ venv\Scripts\activate
 ```
-Instale as dependências a partir do arquivo requirements.txt:
-No terminal, execute o seguinte comando:
-
+Install dependencies from requirements.txt:
 ```bash 
 $ pip install -r requirements.txt
 ```
-
-Para o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
-na ordem em que estão no arquivo, a última célular ira responder com o link de um servidor local que roda na porta 8050 que é a porta padrão do DashApp.
+Note: The dashboard.ipynb file is in Python Notebook format and operates through code and text cells. To start the project, you must run all cells in order. The last cell will provide a local server link running on port 8050 (the default DashApp port).
 
 ## MAC
 
-[DOWLOAD DO PYTHON PARA MAC](https://www.python.org/downloads/macos/)
+[DOWLOAD DO PYTHON FOR MAC](https://www.python.org/downloads/macos/)
 
-Crie uma pasta para o seu projeto:
+Create and navigate to your project folder using the Terminal.
 
-Escolha um local no seu sistema de arquivos e crie uma pasta para o seu projeto Python.
-
-Abra o terminal e navegue até a pasta do projeto:
-
-Abra o terminal ou prompt de comando e navegue até a pasta que você criou para o projeto.
-
-Crie um ambiente virtual (venv):
-
-No terminal, execute o seguinte comando:
+Create a virtual environment (venv):
 
 ```bash 
 $ python -m venv venv
 ```
-
-Ative o ambiente virtual:
+Activate the virtual environment:
 ```bash 
 $ source venv/bin/activate
 ```
-Instale as dependências a partir do arquivo requirements.txt:
-No terminal, execute o seguinte comando:
-
+Install dependencies:
 ```bash 
 $ pip install -r requirements.txt
 ```
-
-Para o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
-na ordem em que estão no arquivo, a última célular ira responder com o link de um servidor local que roda na porta 8050 que é a porta padrão do DashApp.
 
 
 ## LINUX
 
-[INSTALAÇÃO PYTHON PARA LINUX](https://python.org.br/instalacao-linux/)
+[INSTALAÇÃO PYTHON FOR LINUX](https://python.org.br/instalacao-linux/)
 
-Crie uma pasta para o seu projeto:
+Setup: While most modern GNU/Linux systems come with Python installed, creating a virtual environment is recommended to avoid system conflicts.
 
-Escolha um local no seu sistema de arquivos e crie uma pasta para o seu projeto Python.
-
-Abra o terminal e navegue até a pasta do projeto:
-
-Abra o terminal ou prompt de comando e navegue até a pasta que você criou para o projeto.
-
-Crie um ambiente virtual (venv):
-
-No terminal, execute o seguinte comando:
+Navigate to the folder and create a venv:
 
 ```bash 
 $ python -m venv venv
 ```
 
-Ative o ambiente virtual:
+Activate the virtual environment:
+
 ```bash 
 $ source venv/bin/activate
 ```
-Instale as dependências a partir do arquivo requirements.txt:
-No terminal, execute o seguinte comando:
+
+Install dependencies:
 
 ```bash 
 $ pip install -r requirements.txt
 ```
+## 📌 Versioning
 
-Os sistemas GNU/Linux mais recentes ja possuem uma versão do Python instalada junto com o sistema operacional mas é recomendado a instalação de outro interpretador para evitar conflitos, por isso deve ser seguido o passo a passo do link acima após instalado
-em sua IDE de preferencia ou no jupyter notebook abra o arquivo dashboard.ipynb, o arquivo está em formato de python notebook e funciona por células de codigo e texto, para iniciar o projeto é necessário rodar todas as células
-na ordem em que estão no arquivo, a última célular ira responder com o link de um servidor local que roda na porta 8050 que é a porta padrão do DashApp.
+We use GitHub for version control. For available versions, see the [commits](https://github.com/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/commits/main/). 
 
-## 📌 Versão
+## 🛠️ Built With
 
-Nós usamos o github para controle de versão. Para as versões disponíveis, observe os [commits](https://github.com/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife/commits/main/). 
+* [PYTHON](https://www.python.org/doc/) - The programming language used.
+* [DASH](https://dash.plotly.com) - The framework used for the dashboard.
+* [PLOTLY](https://plotly.com/python/) - Library for building charts.
+* [PANDAS](https://pandas.pydata.org/docs/) - Library for data analysis and structuring.
 
-## 🛠️ Construído com
+## ✒️ Authors
 
-* [PYTHON](https://www.python.org/doc/) - A linguagem de programação utilizada
-* [DASH](https://dash.plotly.com) - Framework utilizado
-* [PLOTLY](https://plotly.com/python/) - Biblioteca para construção dos gráficos
-* [PANDAS](https://pandas.pydata.org/docs/) - Biblioteca para ánalise e estruturação dos dados
-
-## ✒️ Autores
-
-* *Alessandro Henrique* - Planejamento, Protótipação e Documentação - [Alessandro Henrique](https://github.com/alessandrohpsf)
-* *Dayvid Douglas* - Desenvolvimento Full-stack - [Dayvid Douglas](https://github.com/dayviddouglas)
-* *Lacê Renê* - Planejamento e Desenvolvimento Front-end - [Renne Gomes](https://github.com/rennegomes)
-* *Márcio Milet* - Desenvolvimento Full-stack - [Marcio Milet](https://github.com/marciomilet)
-* *Rarissa Gabriele* - Planejamento, Protótipação e Documentação - [Rarissa Santos](https://github.com/rarissasantos29)
+* *Alessandro Henrique* - Planning, Prototyping, and Documentation - [Alessandro Henrique](https://github.com/alessandrohpsf)
+* *Dayvid Douglas* - Full-stack Development - [Dayvid Douglas](https://github.com/dayviddouglas)
+* *Lacê Renê* - Planning and Front-end Development - [Renne Gomes](https://github.com/rennegomes)
+* *Márcio Milet* - Full-stack Development - [Marcio Milet](https://github.com/marciomilet)
+* *Rarissa Gabriele* -Planning, Prototyping, and Documentation - [Rarissa Santos](https://github.com/rarissasantos29)
